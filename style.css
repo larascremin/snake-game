@@ -1,24 +1,53 @@
-.body {
-  background-color: beige;
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+body {
+  background-image: url("./img/background.svg");
+  font-family: "Press Start 2P", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #171715;
 }
 
 .grid {
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   display: flex;
   flex-wrap: wrap;
-  border-style: solid;
+  border: 4px solid #171715;
+  background-image: url("./img/grass.svg");
+}
+
+.start {
+  margin-bottom: 40px;
+  font-family: inherit;
+  padding: 12px 24px;
+  border-radius: 0px;
+  border-style: none;
+  background-color: #c95735;
+}
+
+.start:hover {
+  scale: 1.1;
+  background-color: #ef7854;
 }
 
 .grid div {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
 }
 
 .snake {
-  background-color: aquamarine;
+  background-color: #022f06;
 }
 
 .apple {
-  background-color: red;
+  background-image: url("./img/apple.svg");
+}
+
+.score {
+  margin-top: 40px;
 }
