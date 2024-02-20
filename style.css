@@ -3,13 +3,13 @@
 body {
   background-image: url("./img/background.svg");
   font-family: "Press Start 2P", Arial, sans-serif;
+  color: #171715;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
-  color: #171715;
 }
 
 .grid {
@@ -49,5 +49,13 @@ body {
 }
 
 .score {
-  margin-top: 40px;
+  margin-top: 20px;
+}
+
+.numbers {
+  color: #b94825;
+}
+
+.head {
+  background-color: black;
 }
