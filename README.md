@@ -2,6 +2,8 @@
 
 This is a simple Snake Game developed in JavaScript.
 
+##
+
 ### How to Play
 
 👉 https://snakegame-ls.vercel.app/
@@ -10,11 +12,15 @@ This is a simple Snake Game developed in JavaScript.
 2. Try to eat the apples to grow and earn points.
 3. Avoid colliding with walls or the snake's own body.
 
+##
+
 ### Features
 
-- Score tracking: I created a score to monitor the score. As the score increases, the speed increases proportionally. 
-- Increasing difficulty: As the snake grows longer and moves faster, the game becomes more challenging.
-- Random apple generation: The apple is generated randomly, taking care never to generate it in fields occupied by the snake's divs.
+I created a score tracking to monitor the score and display the score. As the score increases, <br> 
+the speed increases proportionally and the snake moves faster. The apple is generated randomly, <br> 
+taking care never to generate it in fields occupied by the snake's divs.
+
+##
 
 ### How to Contribute
 
