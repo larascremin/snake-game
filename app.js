@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let interval = 0;
 
   function startGame() {
+    document.querySelector(".game-over").style.display = "none";
     currentSnake.forEach((index) => squares[index].classList.remove("snake"));
     squares[appleIndex].classList.remove("apple");
     clearInterval(interval);
@@ -37,7 +38,9 @@ document.addEventListener("DOMContentLoaded", () => {
       (currentSnake[0] - width < 0 && direction === -width) ||
       squares[currentSnake[0] + direction].classList.contains("snake")
     ) {
-      return clearInterval(interval);
+      clearInterval(interval);
+      document.querySelector(".game-over").style.display = "block";
+      return;
     }
 
     const tail = currentSnake.pop();

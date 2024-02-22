@@ -8,7 +8,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   margin: 0;
 }
 
@@ -19,6 +18,10 @@ body {
   flex-wrap: wrap;
   border: 4px solid #171715;
   background-image: url("./img/grass.svg");
+}
+
+h1 {
+  margin: 60px 0px 20px 0px;
 }
 
 .start {
@@ -41,7 +44,7 @@ body {
 }
 
 .snake {
-  background-color: #022f06;
+  background-image: url("./img/snake.svg");
 }
 
 .apple {
@@ -53,9 +56,15 @@ body {
 }
 
 .numbers {
-  color: #b94825;
+  color: #771f04;
 }
 
-.head {
-  background-color: black;
+.game-over {
+  margin: 20px;
+  color: #771f04;
+}
+
+.icon {
+  height: 40px;
+  margin: 0px 12px;
 }
