@@ -1,6 +1,6 @@
 ### SNAKE GAME 🐍 
 
-This is a simple Snake Game developed in JavaScript.
+This is a simple Snake Game developed in JavaScript. Also, all design and illustrations, including pixel art, were made by me.
 
 ##
 
