@@ -9,9 +9,9 @@ All design and illustrations, including pixel art, were also made by me.
 
 👉 https://snakegame-ls.vercel.app/
 
-1. Use the arrow keys on your keyboard to control the snake's direction.
-2. Try to eat the apples to grow and earn points.
-3. Avoid colliding with walls or the snake's own body.
+1. Use the arrow keys on your keyboard to control the snake's direction;
+2. Try to eat the apples to grow and earn points;
+3. Avoid colliding with walls or the snake's own body;
 
 ##
 
