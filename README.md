@@ -17,4 +17,5 @@ taking care never to generate it in fields occupied by the snake's divs.
 
 ### How to Contribute
 
-Feel free to contribute improvements to the source code or report issues by opening an issue. And enjoy the game!
+Feel free to contribute improvements to the source code or report issues by opening an issue. <br>
+And enjoy the game!
