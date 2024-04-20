@@ -15,13 +15,6 @@ taking care never to generate it in fields occupied by the snake's divs.
 
 ##
 
-### How to Contribute
-
-Feel free to contribute improvements to the source code or report issues by opening an issue. <br>
-And enjoy the game!
-
-##
-
 <div> 
     <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
     <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
